@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoHouse</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar section -->
+        <div class="navbar">
+            <a href="C:\Users\Augus\OneDrive\Stalinis kompiuteris\NaujasWebas\index.html">
+           <img src="C:\Users\Augus\OneDrive\Stalinis kompiuteris\NaujasWebas\autohouse-high-resolution-logo-black-transparent.png" alt="Logo" class="logo"><!-- Corrected the image path -->
+        </a>
+            <nav>
+            <ul id="menuList">
+                <li><a href="C:\Users\Augus\OneDrive\Stalinis kompiuteris\NaujasWebas\Kontaktai.html">Parduodami automobiliai</a></li>
+                <li><a href="C:\Users\Augus\OneDrive\Stalinis kompiuteris\NaujasWebas\Kontaktai.html">Automobilių supirkimas</a></li>
+                <li><a href="C:\Users\Augus\OneDrive\Stalinis kompiuteris\NaujasWebas\Kontaktai.html">Kontaktai</a></li>
+            </ul>
+        </nav>
+            <img src="C:\Users\Augus\OneDrive\Stalinis kompiuteris\NaujasWebas\menu.png" alt="Menu" class="menu-icon" onclick="togglemenu()"> <!-- Corrected the image path -->
+       
+        </div>
+
+        <!-- Content section -->
+        <div class="row">
+            <div class="col-1">
+                <h2>Auto supirkimas!<br></h2>
+                <h2><br>Moto supirkimas!<br></h2>
+                <h2><br>Auto pardarvimas!<br></h2>
+                <h2><br>Auto keitimas!<br></h2>
+
+             
+           
+           
+                <a class="fancy"  href="C:\Users\Augus\OneDrive\Stalinis kompiuteris\NaujasWebas\Kontaktai.html">
+                    <span class="top-key"></span>
+                    <span class="text">Kontaktai</span>
+                    <span class="bottom-key-1"></span>
+                    <span class="bottom-key-2"></span>
+                </a>
+            </div>
+            <div class="col-2">
+                <img src="C:\Users\Augus\OneDrive\Stalinis kompiuteris\NaujasWebas\mbML.png" alt="Main Image" class="ML"> <!-- Corrected the image path -->
+            </div>
+        </div>
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if( menuList.style.maxHeight == "0px")
+                 {
+                    menuList.style.maxHeight = "130px"
+                 }
+             else 
+             {
+                menuList.style.maxHeight = "0px";
+             }
+        }
+
+    </script>
+</body>
+</html>
